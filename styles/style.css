@@ -353,7 +353,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .header__theme-menu {
     display: flex;
     justify-content: center;
