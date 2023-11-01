@@ -1,5 +1,5 @@
 :root {
-    --font-family: 'IBM Plex mono', 'Roboto', sans-serif;
+    --font-family: 'IBM Plex mono', 'Roboto', monospace;
     --accent-color: #FF0070;
     --cover-image: url(../images/cover-image-dark.png);
     --color-text: #F1B2CE;
@@ -11,5 +11,7 @@
     --title-font-size: 116px;
     --title-font-weight: bold;
     --title-line-height: 95.7px;
-    --link-effect-color: #FF0070;
+    --link-effect-color: var(--accent-color);
+    --color-border-button-hover:var(--accent-color);
+--color-shadow-title: var(--accent-color);
 }

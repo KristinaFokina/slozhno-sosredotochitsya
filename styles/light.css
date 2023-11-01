@@ -6,11 +6,12 @@
   --color-text-in-background: var(--accent-color);
   --color-text: #353430;
   --title-color: rgba(255, 194, 230, 1);
-  --link-effect-color:#FF8DCB;
-
+  --link-effect-color: #FF8DCB;
+  --color-border-button-hover: rgba(50, 49, 45, 0.4);
+  --color-shadow-title: rgba(255, 141, 203, 1);
 }
 
-.theme_light:has(.logo) .logo {
+.theme_light:has(.decor) .decor {
   display: none;
 }
 
@@ -24,14 +25,15 @@
     --color-text: #353430;
     --title-color: rgba(255, 194, 230, 1);
     --link-effect-color: #FF8DCB;
+    --color-shadow-title: rgba(255, 141, 203, 1);
 
   }
 
-  .logo {
+  .decor {
     display: none;
   }
 
-  .theme_dark:has(.logo) .logo {
+  .theme_dark:has(.decor) .decor {
     display: flex;
   }
 }

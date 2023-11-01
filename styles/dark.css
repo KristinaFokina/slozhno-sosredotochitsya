@@ -6,8 +6,9 @@
   --background-color-with-text: var(--accent-color);
   --color-text-in-background: var(--main-background-color);
   --color-text: #F1B2CE;
-  --link-effect-color: #FF0070;
-
+  --link-effect-color: var(--accent-color);
+  --color-border-button-hover: var(--accent-color);
+--color-shadow-title: var(--accent-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,9 +20,11 @@
     --background-color-with-text: var(--accent-color);
     --color-text-in-background: var(--main-background-color);
     --color-text: #F1B2CE;
+    --color-border-button-hover: var(--accent-color);
+    --color-shadow-title: var(--accent-color);
   }
 
-  .logo {
+  .decor {
     display: flex;
   }
 }
