@@ -12,6 +12,7 @@
     --title-font-weight: bold;
     --title-line-height: 95.7px;
     --link-effect-color: var(--accent-color);
-    --color-border-button-hover:var(--accent-color);
---color-shadow-title: var(--accent-color);
+    --color-border-button-hover:rgba(255, 0, 112, 0.4);
+    --color-shadow-title: var(--accent-color);
+    --accent-background:#000028;
 }

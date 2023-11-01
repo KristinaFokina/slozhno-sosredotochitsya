@@ -7,8 +7,9 @@
   --color-text-in-background: var(--main-background-color);
   --color-text: #F1B2CE;
   --link-effect-color: var(--accent-color);
-  --color-border-button-hover: var(--accent-color);
---color-shadow-title: var(--accent-color);
+  --color-border-button-hover: rgba(255, 0, 112, 0.4);
+  --color-shadow-title: var(--accent-color);
+  --accent-background: #000028;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,8 +21,9 @@
     --background-color-with-text: var(--accent-color);
     --color-text-in-background: var(--main-background-color);
     --color-text: #F1B2CE;
-    --color-border-button-hover: var(--accent-color);
+    --color-border-button-hover: rgba(255, 0, 112, 0.4);
     --color-shadow-title: var(--accent-color);
+    --accent-background: #000028;
   }
 
   .decor {

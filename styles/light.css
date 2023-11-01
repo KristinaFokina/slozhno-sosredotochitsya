@@ -9,6 +9,7 @@
   --link-effect-color: #FF8DCB;
   --color-border-button-hover: rgba(50, 49, 45, 0.4);
   --color-shadow-title: rgba(255, 141, 203, 1);
+  --accent-background: #FFF1F7;
 }
 
 .theme_light:has(.decor) .decor {
@@ -26,7 +27,7 @@
     --title-color: rgba(255, 194, 230, 1);
     --link-effect-color: #FF8DCB;
     --color-shadow-title: rgba(255, 141, 203, 1);
-
+    --accent-background: #FFF1F7;
   }
 
   .decor {
